@@ -291,7 +291,7 @@
         <label class="form__label">Дата выдачи</label>
         <input
           class="form__input"
-          v-model.trim="$v.formResponses.birth.$model"
+          v-model.trim="$v.formResponses.document.issueDate.$model"
         />
         <div
           class="error"
